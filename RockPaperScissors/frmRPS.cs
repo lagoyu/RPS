@@ -30,12 +30,12 @@ namespace RockPaperScissors
 
         // Use this line to create a a 'Random' number generator which is hard to predict
         // Comment it out if you want to try  a fixed seed (see below)
-        // Random rnd = new Random();
+        Random rnd = new Random();
 
         // To produce an identical computer choice sequence every time
         // uncomment the following two lines and comment out the version above
-        const int SEED = 1;
-        Random rnd = new Random(SEED);
+        // const int SEED = 1;
+        // Random rnd = new Random(SEED);
 
         // Declare a class-level variable. 
         // It's accessible (in scope) for all methods within this form (class)
