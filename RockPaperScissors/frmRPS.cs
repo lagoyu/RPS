@@ -25,7 +25,7 @@ namespace RockPaperScissors
         // Milliseconds delay between new computer random choices. The choices are always displayed, so you could try
         // increasing this to see if you can choose based on what the computer is thinking or reducing it to
         // see how fast the code can update the screen!
-        const int ROTATOR_INTERVAL = 200;
+        const int ROTATOR_INTERVAL = 20;
  
 
         // Use this line to create a a 'Random' number generator which is hard to predict
