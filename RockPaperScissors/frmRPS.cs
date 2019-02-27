@@ -275,10 +275,13 @@ namespace RockPaperScissors
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
+            // only instantiates a new help form if it doesn't already exist
+            // this prevents multiple help windows being opened
             if (help == null)
             {
                 help = new frmHelp();
             }
+            // make it visible
             help.Show();
         }
 
